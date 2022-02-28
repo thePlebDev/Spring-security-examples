@@ -6,7 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 @Configuration
-public class projectConfig {
+public class ProjectConfig {
+
+
     @Bean
     public UserDetailsService userDetailsService(){
         return new CustomUserDetailsService();
